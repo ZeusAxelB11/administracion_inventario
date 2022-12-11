@@ -58,7 +58,7 @@
                     @include("notificacion")
                     <div class="box">
                         <figure class="avatar" style="padding: 0">
-                            <img style="width: 130px;" src="{{url("/img/logo-cuadrado.jpg") }}">
+                            <img style="width: 130px;" src="{{url("/img/f1.jpg") }}">
                         </figure>
                         <form method="POST" action="{{ route('login') }}">
                             @csrf
@@ -88,12 +88,11 @@
                             </button>
                         </form>
                     </div>
-                    <p class="has-text-grey">
-                        Si no tienes una cuenta, pide a los administradores que te registren
-                    </p>
+{{--                    <p class="has-text-grey">--}}
+{{--                        Si no tienes una cuenta, pide a los administradores que te registren--}}
+{{--                    </p>--}}
                 </div>
             </div>
-
         </div>
     </section>
 @endsection
